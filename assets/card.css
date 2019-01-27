@@ -1,0 +1,121 @@
+/* Credit Card */
+
+.credit-card {
+    width            : 360px;
+    height           : 400px;
+   /* margin           : 60px auto 0;*/
+    border           : 1px solid #ddd;
+    border-radius    : 6px;
+    background-color : #fff;
+    box-shadow       : 1px 2px 3px 0px rgba(0,0,0,0.10);
+}
+
+.form-header {
+    height        : 60px!important;
+    padding       : 20px 30px 0!important;
+    border-bottom : 1px solid #E1E8EE!important;
+}
+
+.form-body {
+    height  : 340px!important;
+    padding : 30px 30px 20px!important;
+}
+
+/* Title */
+
+.credit-card .title {
+    margin    : 0!important;
+    color     : #000!important;
+    font-size : 18px!important;
+}
+
+/* Common */
+
+.card-number,
+.cvv-input input,
+.month select,
+.paypal-btn,
+.proceed-btn,
+.year select {
+    height : 42px;
+}
+
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px!important;
+    font-weight: 100!important;
+    line-height: 14px!important;
+}
+
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    color   : #000!important;
+    opacity : .7!important;
+}
+
+/* Card Number */
+
+.card-number {
+    width         : 100%!important;
+    margin-bottom : 20px!important;
+    padding-left  : 20px!important;
+    border        : 2px solid #e1e8ee!important;
+    border-radius : 6px!important;
+}
+
+/* Date Field */
+
+.month select,
+.year select {
+    -moz-appearance     : none!important;
+    -webkit-appearance  : none!important;
+    width               : 145px!important;
+    margin-bottom       : 20px!important;
+    padding-left        : 20px!important;
+    border              : 2px solid #e1e8ee!important;
+    border-radius       : 6px!important;
+    /*background          : url('caret.png') no-repeat;*/
+    /*background-position : 85% 50%!important;*/
+}
+
+.month select {
+    float : left!important;
+}
+
+.year select {
+    float : right!important;
+}
+
+/* Card Verification Field */
+
+.cvv-input input {
+    width         : 145px!important;
+    float         : left!important;
+    padding-left  : 20px!important;
+    border        : 2px solid #e1e8ee!important;
+    border-radius : 6px!important;
+    background    : #fff!important;
+}
+
+.cvv-details {
+    float         : right!important;
+    margin-bottom : 20px!important;
+    font-size     : 12px!important;
+    font-weight   : 300!important;
+    line-height   : 16px!important;
+}
+
+.cvv-details p {
+    margin-top : 6px!important;
+}
+
+
+
+.credit-card li input {
+    margin: 0!important;
+}

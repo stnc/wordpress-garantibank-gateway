@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tr_TR\n"
+"POT-Creation-Date: 2016-08-02 14:23+0300\n"
+"PO-Revision-Date: 2017-06-16 16:05+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/WC_Gateway_Payfull.php:31
+msgid "stnc"
+msgstr "stnc"
+
+#: src/WC_Gateway_Payfull.php:32
+msgid "Process payment via Payfull service."
+msgstr "Payfull ile Ödeme İşlemine Devam Et"
+
+#: src/WC_Gateway_Payfull.php:33
+msgid "Proceed to Payfull"
+msgstr "Payfull ile Öde"
+
+#: src/WC_Gateway_Payfull.php:139
+msgid "Enabled"
+msgstr "Aktif"
+
+#: src/WC_Gateway_Payfull.php:145
+msgid "Title"
+msgstr "Başlık"
+
+#: src/WC_Gateway_Payfull.php:147
+msgid "The title which the user will see in the checkout page."
+msgstr "Kullanıcının Ödeme Sayfasında Göreceği Başlık"
+
+#: src/WC_Gateway_Payfull.php:148
+msgid "Payfull Checkout"
+msgstr "Payfull Ödeme Sayfası"
+
+#: src/WC_Gateway_Payfull.php:151
+msgid "Description"
+msgstr "Açıklama"
+
+#: src/WC_Gateway_Payfull.php:153
+msgid "The message to display during checkout."
+msgstr "Ödeme Esnasında Gösterilecek Mesaj"
+
+#: src/WC_Gateway_Payfull.php:154
+msgid "Pay via Payfull, pay safely with your credit card."
+msgstr "Payfull ile Kredi Kartı Kullanarak Güvenle Öde"
+
+#: src/WC_Gateway_Payfull.php:157
+msgid "Endpoint"
+msgstr "Endpoint"
+
+#: src/WC_Gateway_Payfull.php:159
+msgid "The api url to \"Payfull\" service."
+msgstr "Payfull Servis URL' i"
+
+#: src/WC_Gateway_Payfull.php:163
+msgid "Api Username"
+msgstr "API Kullanıcı Adı"
+
+#: src/WC_Gateway_Payfull.php:169
+msgid "Api Password"
+msgstr "API Şifre"
+
+#: src/WC_Gateway_Payfull.php:175
+msgid "Enable 3D secure"
+msgstr "3D Aktif"
+
+msgid "Force 3D Secure"
+msgstr "3D Zorunlu"
+
+msgid "If 3D secure option is mandatory in Payfull side, this option must be enable. Otherwise your transactions will fail."
+msgstr "Hepsipay tarafından 3D secure özelliği tarafınıza zorunlu tutulduysa bu seçeneğin aktif olması gerekmektedir. Aksi takdirde işlemleriniz başarısız olacaktır."
+
+#: src/WC_Gateway_Payfull.php:177 src/WC_Gateway_Payfull.php:183
+msgid "No"
+msgstr "Hayır"
+
+#: src/WC_Gateway_Payfull.php:177 src/WC_Gateway_Payfull.php:183
+msgid "Yes"
+msgstr "Evet"
+
+#: src/WC_Gateway_Payfull.php:178
+msgid "Choose whether to enable 3D secure payment option."
+msgstr "3D Güvenli Ödemeyi Aktif Edebilirsiniz"
+
+#: src/WC_Gateway_Payfull.php:181
+msgid "Enable Installment"
+msgstr "Taksit Aktif"
+
+#: src/WC_Gateway_Payfull.php:184
+msgid "Choose whether to enable installment option."
+msgstr "Taksit Seçeneklerini Aktif Edebilirsiniz"
+
+msgid "Enable Extra Installment"
+msgstr "Ekstra Taksit Aktif"
+
+msgid "Enable BKM Express"
+msgstr "BKM Express Aktif"
+
+msgid "Choose whether to enable BKM Express gateway."
+msgstr "BKM Exkpress'i aktif edebilirsiniz."
+
+#: src/WC_Gateway_Payfull.php:187
+msgid "Total Selector"
+msgstr "Total"
+
+#: src/WC_Gateway_Payfull.php:190
+msgid "A jQuery selector of the HTML element that contains the total amount in checkout page."
+msgstr "Ödeme Sayfasındaki Toplam Fiyatı Gösteren HTML Elementinin JQuery Seçicisi"
+
+#: src/WC_Gateway_Payfull.php:193
+msgid "Currency Class"
+msgstr "Para Birimi"
+
+#: src/WC_Gateway_Payfull.php:196
+msgid "The CSS class(es) to be applied to the curreny on checkout page"
+msgstr "Ödeme Sayfasındaki Para Birimi için Kullanılacak CSS Sınıfları"
+
+#: src/WC_Gateway_Payfull.php:199
+msgid "Custom Css"
+msgstr "Custom CSS"
+
+#: src/WC_Gateway_Payfull.php:212 src/WC_Gateway_Payfull.php:233
+msgid "Failed to process the payment because of invalid order"
+msgstr "Hatalı Sipariş Ödeme Başarısız"
+
+#: src/WC_Gateway_Payfull.php:356
+msgid "Invalid installment information."
+msgstr "Geçersiz Taksit Bilgisi"
+
+#: src/WC_Gateway_Payfull.php:379
+msgid "Invalid response received."
+msgstr "Geçersiz Cevap Alındı"
+
+#: src/WC_Gateway_Payfull.php:390 src/WC_Gateway_Payfull.php:438
+msgid "Thank you for shopping with us. Your transaction is succeeded."
+msgstr "İşleminiz Başarılı,Alışveriş için Teşekkür Ederiz."
+
+#: src/WC_Gateway_Payfull.php:413
+msgid "Bad request"
+msgstr "Hatalı İstek"
+
+#: src/WC_Gateway_Payfull.php:428
+msgid "Order not found."
+msgstr "Sipariş Bulunamadı"
+
+#: src/WC_Gateway_Payfull.php:430
+#, php-format
+msgid "The payment is done but your order not found. Your transaction id is \"%1$s\""
+msgstr "Ödeme Başarılı fakat Sipariş Bulunamadı. Sipariş Numarası \"%1$s\""
+
+#: src/WC_Gateway_Payfull.php:446
+msgid "Unexpected error occured while processing your request."
+msgstr "İşlem Sırasında Beklenmeyen Hata ile Karşılaşıldı"
+
+#: src/WC_Gateway_Payfull.php:493
+msgid "Holder name cannot be empty."
+msgstr "Kart Hamili İsmi Alanı Boş Olamaz"
+
+#: src/WC_Gateway_Payfull.php:496
+msgid "Card number cannot be empty."
+msgstr "Kart No Alanı Boş Olamaz"
+
+#: src/WC_Gateway_Payfull.php:498
+msgid "Please enter a valid credit card number."
+msgstr "Lütfen Geçerli Bir Kart Numarası Giriniz."
+
+#: src/WC_Gateway_Payfull.php:502
+msgid "Card expiration year cannot be empty."
+msgstr "Son Kullanım Tarihi (yıl) Boş Olamaz"
+
+#: src/WC_Gateway_Payfull.php:507
+msgid "The expiration year is invalid"
+msgstr "Son Kullanım Ayı Geçersizdir"
+
+#: src/WC_Gateway_Payfull.php:512
+msgid "Card expiration month cannot be empty."
+msgstr "Son Kullanım tarihi (ay) Boş Olamaz"
+
+#: src/WC_Gateway_Payfull.php:516
+msgid "The expiration month is invalid: "
+msgstr "Son Kulllanım Tarihi (ay) Geçersiz"
+
+#: src/WC_Gateway_Payfull.php:520
+msgid "Card CVC cannot be empty."
+msgstr "Güvenlik Kodu Boş Olamaz"
+
+#: src/WC_Gateway_Payfull.php:522
+msgid "Please enter a valid credit card verification number."
+msgstr "Lütfen Geçerli Bir Güvenlik Kodu Giriniz"
+
+#: src/WC_Gateway_Payfull.php:526
+msgid "The installment value must be a positive integer."
+msgstr "Taksit Sayısı Pozitif Bir Tam Sayı Olmalıdır"
+
+#: src/WC_Gateway_Payfull.php:538
+msgid "Installment Commission"
+msgstr "Taksit Komisyonu"
+
+#: src/views/payment-form.php:24
+msgid "Name on Card"
+msgstr "Kart Üzerindeki İsim"
+
+#: src/views/payment-form.php:25
+msgid "Credit Card Number"
+msgstr "Kredi Kartı Numarası"
+
+#: src/views/payment-form.php:26
+msgid "Expiry Month"
+msgstr "Ay"
+
+#: src/views/payment-form.php:27
+msgid "Expiry Year"
+msgstr "Yıl"
+
+#: src/views/payment-form.php:28
+msgid "Card Verification Number"
+msgstr "Kart Güvenlik Kodu"
+
+#: src/views/payment-form.php:29
+msgid "Use 3D secure Payments System"
+msgstr "3D Güvenlik Yöntemi Kullansın"
+
+#: src/views/payment-form.php:30
+msgid "installment"
+msgstr "Taksit"
+
+#: src/views/payment-form.php:31 src/views/payment-form.php:107
+msgid "Total"
+msgstr "Toplam"
+
+#: src/views/payment-form.php:74
+msgid "Month"
+msgstr "Ay"
+
+#: src/views/payment-form.php:85
+msgid "Year"
+msgstr "Yıl"
+
+#: src/views/payment-form.php:105
+msgid "Installment"
+msgstr "Taksit"
+
+#: src/views/payment-form.php:106
+msgid "Amount / Month"
+msgstr "Tutar/Ay"
+
+#: src/views/payment-form.php
+msgid "One Shot"
+msgstr "Tek Çekim"
+
+msgid "Checkout"
+msgstr "ÖDEME YAP"
+
+msgid "Card Verification Code (CVC)"
+msgstr "CVC"
+
+msgid "Holder Name"
+msgstr "Kart Üzerindeki Ad Soyad"
+
+msgid "Credit card/Debit card"
+msgstr "Kredi kartı / Banka kartı"
+
+msgid "Choose whether to enable extra installment option."
+msgstr ""
