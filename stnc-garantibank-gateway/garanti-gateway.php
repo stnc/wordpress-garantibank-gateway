@@ -5,10 +5,10 @@ if (!defined('ABSPATH')) {
 
 /*xx
  * Plugin Name: WooCommerce STNC Garanti Payment Gateway
- * Plugin URI: selmantunc.com
+ * Plugin URI: selmantunc.com.tr
  * Description: Take credit card payments on your store.
  * Author: stnc
- * Author URI: http://selmantunc.com
+ * Author URI: http://selmantunc.com.tr
  * Version: 1.0.0
  *
 */
