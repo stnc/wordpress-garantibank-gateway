@@ -13,7 +13,7 @@ wordpress garanti bankası ödeme sistemi
 
 plugins dizinine atarak eklentiyi etkinleştirin
 
-curl eklentisini kurmayı unutmayın
+# curl eklentisini kurmayı unutmayın
 
 apt install libapache2-mod-php php-curl
  service apache2 restart
