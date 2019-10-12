@@ -16,6 +16,7 @@ plugins dizinine atarak eklentiyi etkinleştirin
 # curl eklentisini kurmayı unutmayın
 
 apt install libapache2-mod-php php-curl
+
  service apache2 restart
 
 ## How to enable and disable PHP curl module with Apache on Ubuntu Linux
