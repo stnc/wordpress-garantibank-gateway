@@ -114,7 +114,7 @@ function stnc_init_gateway_class()
                         'TEST' => 'Test Ortamı',
                         'PROD' => 'Çalışma Ortamı',
                     ),
-                    'description' => "Sanalp post u test için kullanıyorsanız test oramını seçiniz",
+                    'description' => "Sanalp post u test için kullanıyorsanız test oramını seçiniz ",
                 ),
 
 
@@ -137,36 +137,42 @@ function stnc_init_gateway_class()
                     'title' => __('Talimatlar/Notlar:', 'stnc'),
                     'type' => 'textarea',
                     'description' => __('', 'stnc'),
-                    'default' => __('', 'stnc')),
+                    'default' => __('Aşağıdaki bilgiler test ortamı için geçerlidir, lütfen kendi bilgilerinizi girmeyi unutmayın', 'stnc')),
 
                 'terminalID' => array(
                     'title' => __('Terminal  ID', 'stnc'),
                     'type' => 'text',
                     'description' => __('Terminal  ID'),
+                    'default' => '30691298',
                 ),
 
                 'terminalUserID' => array(
                     'title' => __('Terminal user  ID', 'stnc'),
                     'type' => 'text',
                     'description' => __('Terminal user ID'),
+                    'default' => 'PROVAUT',
                 ),
 
                 'terminalMerchantID' => array(
                     'title' => __('Terminal Merchant ID', 'stnc'),
                     'type' => 'text',
                     'description' => __('Üye iş yeri numarası'),
+                    'default' => '7000679',
+                    
                 ),
 
                 'ProvUser' => array(
                     'title' => __(' Terminal Provison User ', 'stnc'),
                     'type' => 'text',
                     'description' => __('Terminal Provison User '),
+                    'default' => 'PROVAUT',
                 ),
 
                 'provUserPassword' => array(
                     'title' => __(' Provision user Password', 'stnc'),
                     'type' => 'text',
                     'description' => __(' Provision User Password '),
+                    'default' => '123qweASD/',
                 ),
 
 
@@ -174,6 +180,7 @@ function stnc_init_gateway_class()
                     'title' => __('Store Key', 'stnc'),
                     'type' => 'text',
                     'description' => __('3D Secure şifreniz'),
+                    'default' => '12345678',
                 ),
             );
         }
