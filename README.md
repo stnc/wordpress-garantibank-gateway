@@ -1,3 +1,11 @@
+Bu konuda herhangi bir destek saglamiyorum 
+
+eger calismiyorsa kullandigim https://github.com/defiant/sanalpos bu kutuphane den olabilir
+
+yada banka api de degisiklik yapmis olabilir 
+
+yada eklenti yeni cikan php ve wordpress versiyonlari ile artik uyumsuz olabilir.
+
 Garanti Bankası WooCommerce Sanal Pos Modülü
 
 Garanti 3D Virtual POS Gateway for WooCommerce
