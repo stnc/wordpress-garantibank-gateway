@@ -1,4 +1,6 @@
-Bu konuda herhangi bir destek saglamiyorum 
+Bu konuda herhangi bir destek saglamiyorum, lutfen mesaj atmayiniz, 
+
+ticari amaclarla yapilmamistir, wordpress ile odeme sistemi eklentisi yapmak isteyenlere rehber olmasi icindir.
 
 eger calismiyorsa kullandigim https://github.com/defiant/sanalpos bu kutuphane den olabilir
 
