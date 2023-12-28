@@ -475,7 +475,7 @@ function stnc_init_gateway_class()
             //   $pos->setCard('375622005485014', '10', '20', '123');
             $pos->setCard($formdata['card']['pan'], $formdata['card']['month'], $formdata['card']['year'], $formdata['card']['cvc']);
 
-            $pos->setOrder($order_id, 'eticaret@arnasagro.com', $total);
+            $pos->setOrder($order_id, 'eticaret@eticaret.com', $total);
 
             $pos->setMode($this->settings['working_mode']); //test or production mode
 
